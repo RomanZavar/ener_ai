@@ -4,7 +4,7 @@ from scrapy.utils.log import configure_logging
 from scrapy.utils.project import get_project_settings
 
 
-from jobparser.spiders.hhru import HhruSpider
+from spiders.hhru import HhruSpider
 
 if __name__ == '__main__':
     configure_logging()

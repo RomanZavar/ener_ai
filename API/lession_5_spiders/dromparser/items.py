@@ -6,7 +6,7 @@
 import scrapy
 
 
-class DromparserItem(scrapy.Item):
+class DromparserItem(scrapy.ScrapyItem):
     # define the fields for your item here like:
     name = scrapy.Field()
     yers = scrapy.Field()

@@ -9,8 +9,8 @@
 
 BOT_NAME = "jobparser"
 
-SPIDER_MODULES = ["jobparser.spiders"]
-NEWSPIDER_MODULE = "jobparser.spiders"
+SPIDER_MODULES = ["I_I.API.lession_5_spiders.jobparser.spiders"]
+NEWSPIDER_MODULE = "I_I.API.lession_5_spiders.jobparser.spiders"
 LOG_ENABLED = True
 LOG_LEVEL = "DEBUG"
 

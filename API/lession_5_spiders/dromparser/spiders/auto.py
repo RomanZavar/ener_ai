@@ -1,7 +1,6 @@
 import scrapy
-
 from scrapy.http import HtmlResponse
-from jobparser.items import JobparserItem
+from dromparser.items import DromparserItem
 
 
 class AutoSpider(scrapy.Spider):
